@@ -1,6 +1,6 @@
 console.log("CONTENT SCRIPT RUN");
 var script = document.createElement("script");
-const logoUrl = chrome.extension.getURL("logo.png");
+const logoUrl = chrome.extension.getURL("logo.svg");
 const size = 150;
 script.text = `
 const flerg = document.createElement("div");
