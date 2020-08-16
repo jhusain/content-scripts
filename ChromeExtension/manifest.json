@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "run_at": "document_end",
-      "matches": ["https://www.google.com/?voice_search=true"],
+      "matches": ["*://www.google.com/*"],
       "js": ["content.js"]
     }
   ],
