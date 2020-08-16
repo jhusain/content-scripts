@@ -4,7 +4,7 @@ const logoUrl = chrome.extension.getURL("logo.svg");
 const size = 50;
 script.text = `
 const flerg = document.createElement("div");
-flerg.style="position: fixed; bottom:0px; right:0px;z-index:2147483647;
+flerg.style="position: fixed; bottom:0px; right:0px;z-index:99999;
  ";
 flerg.innerHTML = "<a href='https://www.google.com/?voice_search=true' target='_blank'><img width='${size}' height='${size}' src='${logoUrl}'></a>";
 document.documentElement.appendChild(flerg);
