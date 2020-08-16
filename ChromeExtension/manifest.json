@@ -10,6 +10,17 @@
     "48": "mic48.png",
     "128": "mic128.png"
   },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "mic16.png",
+      "48": "mic48.png",
+      "128": "mic128.png"
+    },
+    "default_title": "Voice Search"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -20,5 +31,5 @@
       "js": ["content.js"]
     }
   ],
-  "permissions": ["activeTab", "<all_urls>"]
+  "permissions": ["activeTab", "<all_urls>", "tabs"]
 }
