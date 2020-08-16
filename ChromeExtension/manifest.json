@@ -5,6 +5,11 @@
   "description": "An extension that allows users to start a google voice search from any page with a single click.",
   "version": "1.0",
   "web_accessible_resources": ["logo.svg"],
+  "icons": {
+    "16": "mic16.png",
+    "48": "mic48.png",
+    "128": "mic128.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
