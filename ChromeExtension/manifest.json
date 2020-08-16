@@ -6,7 +6,6 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "run_at": "document_end",
       "matches": ["*://www.google.com/*"],
       "js": ["content.js"]
     }
