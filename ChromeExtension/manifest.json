@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Content Scripts example",
-  "description": "A simple content_scripts example.",
+  "name": "Voice Search",
+  "description": "An extension that allows users to start a google voice search from any page with a single click.",
   "version": "1.0",
   "web_accessible_resources": ["logo.svg"],
   "content_scripts": [
